@@ -8,7 +8,7 @@
 * A minimalistic FSM implementation with a Dictionary to store runtime states 
 * Interface that defines state methods
 
-## Example implementation
+## FSM use example
 
 * I've added an example implementation where FSM is used for an agent with a patrol, idle and a chase behavior
 
@@ -18,7 +18,7 @@
 
 * If agent catches the player it will stop
 
-* Note: implementation is not in any way optimized, it is exists only to demonstrate how this particular FSM could be used.
+* Note: example code is not in any way optimized, it is exists only to demonstrate how this particular FSM could be used
 
 
 ## Classes
@@ -36,15 +36,15 @@ Interface that defines methods each state should have. Note: each state can have
 Owner class that uses FSM to manage its behaviors. In this case it is a patrolling sprite character.
 
 ### WanderState
-The default state of this implementation. Makes agent character walk and idle.
+Makes agent character walk and idle. Agent also scans for hostiles, i.e. player. 
 
 ### ChaseState
-The other state of this implementation. Makes agent chase player character. If player is lost from sight, it returns back to wander state.
+Makes agent chase player character. If player get out of sight, the agent returns back to wander state.
 
 
 
 ## About
-I created this while learning about finite state machines. I no longer use this kind of state machine.
+I created this while learning about finite state machines. I no longer use this kind of state machine implementation.
 
 
 ## Copyright 
