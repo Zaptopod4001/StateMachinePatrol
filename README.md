@@ -1,6 +1,6 @@
-# Finite State Machine demo (Unity 2018.4 / C#)
+# State Machine Demo (Unity 2018.4 / C#)
 
-![State machine demo](/doc/fsm_patrol.png)
+![State machine demo](/doc/fsm_patrol.gif)
 
 
 ## What is it?
