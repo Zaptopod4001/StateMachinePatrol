@@ -5,8 +5,8 @@
 
 ## What is it?
 
-* A minimalistic FSM implementation with interface based contract to for states and Dictionary to store runtime states 
-
+* A minimalistic FSM implementation with a Dictionary to store runtime states 
+* Interface that defines state methods
 
 ## Example implementation
 
